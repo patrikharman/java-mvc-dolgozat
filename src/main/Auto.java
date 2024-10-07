@@ -1,20 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package mvcdolgozat;
 
-/**
- *
- * @author harman.patrik
- */
-public class MvcDolgozat {
+package main;
 
-    /**
-     * @param args the command line arguments
-     */
+import vezerlo.AutoVezerlo;
+import modell.AutoModell;
+import nezet.AutoNezet;
+
+
+public class Auto {
+
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        AutoModell modell = new AutoModell();
+        
+        AutoNezet nezet;
     }
+
+
+    
+
+    
     
 }
